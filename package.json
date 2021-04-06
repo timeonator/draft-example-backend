@@ -1,0 +1,29 @@
+{
+  "name": "draft-example-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec npx babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timeonator/draft-example-backend.git"
+  },
+  "author": "Robert Gifford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timeonator/draft-example-backend/issues"
+  },
+  "homepage": "https://github.com/timeonator/draft-example-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12"
+  },
+  "description": ""
+}
