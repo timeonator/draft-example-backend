@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 })
 app.get('/api/article/:name',  (req,res) => {
     const name = req.params.name;
-    r= data.find(e => e.name==name);
+    const r= data.find(e => e.name==name);
     if(r) {
         res.status(200).send(r);
     } else {
